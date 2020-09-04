@@ -1,0 +1,18 @@
+SET paragraf = 0
+SET batas paragraf = 10 paragraf
+
+KETIK judul
+JIKA judul belum diketik MAKA
+    TAMPILKAN pesan judul belum diketik
+LAINNYA
+    TAMPILKAN aman
+JIKA judul telah diketik
+    JADIKAN tulisan judul menjadi bold
+
+KETIK isi cerita
+JIKA isi cerita>Paragraf MAKA
+    Tampilkan Paragraf MElebihi Kapasitas
+LAINNYA
+    Tambahkan tulisan pada paragraf
+JIKA tulisan paragraf mengandung bahasa latin
+    UBAH tulisan latin menjadi italic
