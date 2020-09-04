@@ -1,0 +1,5 @@
+command which php pada terminal linux menunjukan
+
+bahwa program php berada pada folder bin yang terdapat
+
+pada folder usr
