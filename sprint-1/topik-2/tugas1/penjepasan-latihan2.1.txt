@@ -1,0 +1,66 @@
+--=[ VARIABEL ]=--
+
+$a = true;
+$b = false;
+$c = 4.5;
+$d = 3;
+$e = '2';
+$f = 2;
+$g = null;
+
+--=[ PENJELASAN ]=--
+
+1. var_dump($a);
+bool(true)
+adalah jenis nilai yang berada didalam variabel a, nilai yang berada didalam variabel $a adalah true maka jenisnya adalah boolean 
+
+2. var_dump($b);
+bool(false)
+adalah jenis boolean yang berlawanan dengan true yaitu false
+
+3. var_dump((bool)$b);
+sintak bool yang terdapat didalam kurung itu tidak jauh berbeda dengan var_dump biasa
+hanya saja sintaks bool itu lebih mengartikan bahwa nilai yang terdapat pada variabel itu adalah boolean
+
+4. var_dump($c);
+float(4.5)
+adalah jenis float yang mana float adalah jenis bilangan yang tidak bulat seperti 4.5 dll
+
+5. var_dump((int)$c);
+int(4)
+sintaks int disini adalah untuk membulatkan bilangan/nilai yang memiliki angka tambahan
+misalnya adalah 4,5 akan dibulatkan menjadi 4 dengan sintaks (int) yang terdapat didalam sintaks var_dump
+
+6. var_dump($d + $e);
+int(5)
+tanda tambah(+) yang terdapat diantara $d dan $e adalah untuk menambahkan nilai yang berada didalam variabel d dan variabel e
+
+7. var_dump($d . $e);
+string(32)
+tanda titik yang berada diantara kedua variabel tersebut adalah untuk menggabungkan nilai yang berjenis integer dari kedua variabel tersebut menjadi string
+misalkan saja seperti angka 3 dan 2 yang berada didalam variabel d dan variabel e jika digabungkan akan menjadi string dan bukan lagi menjadi integer
+
+8. var_dump($d * $e);
+int(6)
+tanda bintang yang terdapat diantara kedua variabel tersebut adalah untuk mengalikan nilai dari kedua variabel tersebut
+
+9. var_dump($d > $e);
+bool(true)
+tanda (>) adalah untuk memeriksa apakah nilai dari variabel d lebih besar daripada nilai yang terdapat pada variabel e
+
+10. var_dump($e == $f);
+bool(true)
+tanda "==" adalah tanda yang jika nilai diantara variabel itu sama maka hasilnya akan benar
+misalkan saja variabel e yang bernilai '2' dan variabel f yang bernilai 2, hasilnya akan benar ealaupun nilai pada variabel e itu dikurung oleh tanda kutip satu 
+
+11. var_dump($g);
+NULL
+adalah kondisi netral, kosong, hampa 
+
+12. var_dump((bool)$g);
+bool(false)
+yang berarti nilai NULL bukan termasuk jenis boolean
+
+13. var_dump((int)$g);
+int(0)
+adalah yang menjelaskan bahwa nilai NULL adalah bagian dari integer yang bernilai 0

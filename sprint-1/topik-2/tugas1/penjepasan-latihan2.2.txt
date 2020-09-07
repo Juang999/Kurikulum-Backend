@@ -1,0 +1,17 @@
+--=[ PENJELASAN ]=--
+
+1. var_dump(true && true);
+tanda && diatas adalah tanda yang dimana kedua kondisi haruslah sama pada kondisi diatas keduanya memiliki nillai true maka haasilnya pun akan menjadi true
+
+2. var_dump(true && false);
+sama seperti diatas maka nilai dari kedua kondisi diatas haruslah sama, dan nilai yang terdapat pada kedua kondisi tersebut adalah berbeda maka hasilnya pun harus false
+
+3. var_dump(true || false);
+tanda || pada operator tersebut tidak mengharuskan kedua kondisi tersebut sama tapi hanya salah satunya saja
+dan apabila kondisi pertama adalah true maka hasil dari operator diatas adalah true
+
+4. var_dump(false || false);
+sama seperti sebelumnya apabila kondisi pertama adalah false maka hasilnya pun akan false
+
+5. var_dump(!false)
+tanda seru diatas adalah untuk membalikan nilai, misalnya saja nilai true diberi tanda seru maka true itu akan dibalikan menjadi false begitupun sebaliknya
