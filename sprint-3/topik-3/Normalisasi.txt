@@ -1,0 +1,25 @@
+--=[ NORMALISASI DATABASE ]=--
+
+Nrmalisasi pada database adalah satu teknik untuk mengurangi redudansi data dan ambiguity data.
+Normalisasi juga bisa untuk mengioptimalkan kinerja database.
+
+
+--=[ TUJUAN NORMALISASI DATABASE ]=--
+
+Tujuannya adalah untuk mengurangi redudansi data dan juga mengurangi ambiguitty data.
+
+
+--=[ BEBERAPA TEKNIK SELEKSI NORMALISASI DATABASE ]=--
+
+Ada beberapa teknik dalam Normalisasi database yaitu : 
+
+1. 1NF
+   Suatu tabel dikatakan 1NF jika dan hanya jika setiap atribut dari data tersebut
+   hanya memiliki nilai tunggal dalam satu baris.
+
+2. 2NF
+   Syarat 2NF adalah tidak diperkenankan adanya partial “functional dependency“
+   kepada primary key dalam sebuah tabel.
+
+3. 3NF
+   Pada 3NF tidak diperkenankan adanya partial “transitive dependency“ dalam sebuah tabel.
