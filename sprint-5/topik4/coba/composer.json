@@ -1,0 +1,10 @@
+{
+    "name": "moscow666/coba",
+    "description": "coba",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Coba\\": "Coba/"
+        }
+    }
+}
