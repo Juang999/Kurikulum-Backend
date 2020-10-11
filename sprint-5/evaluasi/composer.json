@@ -1,0 +1,13 @@
+{
+    "name": "moscow666/evaluasi",
+    "description": "evaluasi",
+    "authors": [
+        {
+            "name": "Juang666",
+            "email": "juggernaut.9909@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.1"
+    }
+}
